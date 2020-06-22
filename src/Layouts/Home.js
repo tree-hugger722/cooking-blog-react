@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "../Components/Header";
+import Header from "../Components/Header/Header";
 import SuggestRecipesPage from "./SuggestRecipesPage";
 
 import "./Home.css";
