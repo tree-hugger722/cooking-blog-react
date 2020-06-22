@@ -9,8 +9,6 @@ function App() {
   return (
     <HomeLayout>
       <h3>{COOKING_BLOG_TITLE}</h3>
-      <RecipeForm />
-      <RecipeForm />
     </HomeLayout>
   );
 }
