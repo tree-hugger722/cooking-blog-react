@@ -2,9 +2,9 @@ import React from "react";
 
 import "./Header.css";
 
-let NavTab = (props) => {
+const NavTab = (props) => {
   return (
-    <div>
+    <div className="nav-tab-text">
       <p>{props.name}</p>
     </div>
   );
