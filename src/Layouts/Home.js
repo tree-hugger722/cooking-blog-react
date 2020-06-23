@@ -10,8 +10,8 @@ function HomeLayout({ children }) {
   return (
     <div className="home">
       <Header />
-      {children}
-      <SuggestRecipesPage />
+      <div className="content">{children}</div>
+      {/* <SuggestRecipesPage /> */}
       <Footer />
     </div>
   );
