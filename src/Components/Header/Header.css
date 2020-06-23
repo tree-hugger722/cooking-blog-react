@@ -45,11 +45,40 @@
 
 .nav-tab {
   text-decoration: none;
-  margin-left: 15px;
-  margin-right: 15px;
   color: black;
 }
 
 .nav-tab-text {
   font-family: "Nunito", sans-serif;
+  padding-left: 10px;
+}
+
+@media (max-width: 1118px) {
+  #site-title {
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #nav-bar {
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 995px) {
+  .site-header {
+    flex-direction: column;
+  }
+  #site-title {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #nav-bar {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
