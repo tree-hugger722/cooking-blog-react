@@ -1,5 +1,6 @@
 import React from "react";
 
+import AboutUsPage from "./AboutUsPage";
 import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import SuggestRecipesPage from "./SuggestRecipesPage";
@@ -12,6 +13,7 @@ function HomeLayout({ children }) {
       <Header />
       <div className="content">{children}</div>
       {/* <SuggestRecipesPage /> */}
+      <AboutUsPage />
       <Footer />
     </div>
   );
