@@ -1,4 +1,3 @@
-import SuggestRecipesForm, { COOKING_BLOG_TITLE } from "./SuggestRecipesForm";
+import SuggestRecipesForm from "./SuggestRecipesForm";
 
-export { COOKING_BLOG_TITLE };
 export default SuggestRecipesForm;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export const COOKING_BLOG_TITLE = "COOKING BLOG";
+import "./RecipeForm.css";
 
 class FormElement extends Component {
   constructor(props) {
