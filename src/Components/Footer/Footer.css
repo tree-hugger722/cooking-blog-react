@@ -12,3 +12,9 @@ footer {
   padding-bottom: 5px;
   padding-left: 5px;
 }
+
+#back-to-top {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
