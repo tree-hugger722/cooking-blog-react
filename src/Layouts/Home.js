@@ -10,10 +10,12 @@ import "./Home.css";
 function HomeLayout({ children }) {
   return (
     <div className="home">
-      <Header />
-      <div className="content">{children}</div>
-      {/* <SuggestRecipesPage /> */}
-      <AboutUsPage />
+      <div className="content-above-footer">
+        <Header />
+        {children}
+        {/* <SuggestRecipesPage /> */}
+        <AboutUsPage />
+      </div>
       <Footer />
     </div>
   );
