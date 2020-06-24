@@ -13,6 +13,7 @@ function HomeLayout({ children }) {
     <div className="home">
       <div className="content-above-footer">
         <Header />
+        <br />
         {children}
         <HomePage />
         {/* <SuggestRecipesPage /> */}
