@@ -4,5 +4,11 @@ footer {
   font-family: "Nunito", sans-serif;
   background-color: rgb(189, 48, 48);
   bottom: 0;
-  position: absolute;
+  display: flex;
+  align-items: flex-end;
+}
+
+#footer-text {
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
