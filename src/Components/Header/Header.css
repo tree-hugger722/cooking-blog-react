@@ -1,11 +1,7 @@
 .color-strip {
-  display: block;
   background-color: rgb(189, 48, 48);
-  width: 90%;
-  height: 70px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 15px;
+  width: 100%;
+  height: 5em;
 }
 
 .site-header {
@@ -16,16 +12,13 @@
   justify-content: center;
   height: 15%;
   background-color: transparent;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 #site-title {
   font-family: "Fredericka the Great", cursive;
   font-size: 70px;
-  margin: 0px;
   color: black;
-  padding: 10px 70px 10px 70px;
+  padding: 10px 70px;
 }
 
 #title {
@@ -49,7 +42,38 @@
 
 .nav-tab {
   text-decoration: none;
-  margin-left: 15px;
-  margin-right: 15px;
   color: black;
+}
+
+.nav-tab-text {
+  font-family: "Nunito", sans-serif;
+  padding-left: 10px;
+}
+
+@media (max-width: 1118px) {
+  #site-title,
+  #nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 995px) {
+  .site-header {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #site-title {
+    padding: 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #nav-bar {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

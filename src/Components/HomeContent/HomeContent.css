@@ -1,0 +1,10 @@
+.main-photo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  height: 30em;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: auto;
+}
