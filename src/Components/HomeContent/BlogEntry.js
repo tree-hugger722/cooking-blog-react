@@ -2,10 +2,10 @@ import React from "react";
 
 import "./HomeContent.css";
 
-const BlogEntry = (props) => {
+const BlogEntry = ({ text }) => {
   return (
     <div className="blog-entry">
-      <p className="blog-text">{this.props.text}</p>
+      <p className="blog-text">{text}</p>
     </div>
   );
 };
