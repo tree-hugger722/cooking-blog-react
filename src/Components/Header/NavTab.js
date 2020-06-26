@@ -1,12 +1,14 @@
 import React from "react";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import "./Header.css";
 
-const NavTab = (props) => {
+const NavTab = ({ shortcut, name }) => {
   return (
-    <div className="nav-tab-text">
-      <p>{props.name}</p>
-    </div>
+    <Link className="nav-tab-text" to={shortcut}>
+      {name}
+    </Link>
   );
 };
 
