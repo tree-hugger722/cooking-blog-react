@@ -1,5 +1,6 @@
 import React from "react";
 
+import { BrowserRouter as Link } from "react-router-dom";
 import myriamAndEmma from "../../Images/myriam-and-emma.jpg";
 import gardenImage from "../../Images/garden-image.jpg";
 import emmaCooking from "../../Images/emma-cooking.jpg";
@@ -64,8 +65,8 @@ const AboutUs = () => {
         <p>
           If you have any recipe suggestions (family favorites, an interesting
           discovery, something you tried at a friend's house, etc.) we would
-          love to try them! You can submit them to us using the
-          <a href="suggest-recipes.html"> website form</a>.
+          love to try them! You can submit them to us using the{" "}
+          <Link to="/suggest-recipes">website form</Link>.
         </p>
       </div>
     </div>
