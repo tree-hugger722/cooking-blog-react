@@ -1,30 +1,20 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
 import "./RecipeForm.css";
 
-class FormElement extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: "" };
-    this.handleChange = this.handleChange.bind(this);
-  }
+const FormElement = ({ name }) => {
+  const [value, setValue] = useState("");
 
-  handleChange(event) {
-    this.setState({ value: event.target.value });
-  }
-
-  render() {
-    return (
-      <label className="form-element">
-        <p>{this.props.name}</p>
-        <input
-          type="text"
-          value={this.state.value}
-          onChange={this.handleChange}
-        />
-      </label>
-    );
-  }
-}
+  return (
+    <label className="form-element">
+      <p>{name}</p>
+      <input
+        type="text"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+      />
+    </label>
+  );
+};
 
 export default FormElement;
