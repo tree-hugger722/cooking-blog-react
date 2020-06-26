@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div>
       <nav id="nav-bar">
-        <NavTab className="nav-tab" To="" Name="Home" />
+        <NavTab className="nav-tab" To="/" Name="Home" />
         <NavTab
           className="nav-tab"
           To="/suggest-recipes"
