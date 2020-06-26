@@ -7,7 +7,7 @@ import "./HomeContent.css";
 
 const BlogContent = () => {
   return (
-    <div>
+    <div className="blog-content">
       <BlogHeader
         title="Welcome to Our Blog"
         author="Emma Neil"

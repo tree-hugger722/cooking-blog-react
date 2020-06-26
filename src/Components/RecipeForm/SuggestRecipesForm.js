@@ -1,31 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
 
 import FormElement from "./FormElement";
 
 import "./RecipeForm.css";
 
-class SuggestRecipesForm extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: "" };
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleSubmit(event) {
-    /*alert("A name was submitted: " + this.state.value);*/
+const SuggestRecipesForm = () => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-  }
+  };
 
-  render() {
-    return (
-      <form className="form" onSubmit={this.handleSubmit}>
-        <FormElement name="Name:" />
-        <FormElement name="Email:" />
-        <FormElement name="Recipe:" />
-        <input className="submit" type="submit" value="Submit" />
-      </form>
-    );
-  }
-}
+  return (
+    <form className="form" onSubmit={handleSubmit}>
+      <FormElement name="Name:" />
+      <FormElement name="Email:" />
+      <FormElement name="Recipe:" />
+      <input className="submit" type="submit" value="Submit" />
+    </form>
+  );
+};
 
 export default SuggestRecipesForm;

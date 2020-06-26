@@ -48,6 +48,7 @@
 .nav-tab-text {
   font-family: "Nunito", sans-serif;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 @media (max-width: 1118px) {

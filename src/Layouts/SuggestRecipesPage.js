@@ -6,7 +6,7 @@ import "../Components/RecipeForm/RecipeForm.css";
 
 const SuggestRecipesPage = () => {
   return (
-    <div class="site-text">
+    <div className="site-text">
       <h2>Suggest Recipes</h2>
       <p>
         We welcome any and all recipe suggestions! Just fill out the following
