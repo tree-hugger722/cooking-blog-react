@@ -7,7 +7,7 @@
 }
 
 .content-above-footer {
-  height: calc(100vh - 5em);
+  min-height: calc(100vh - 5em);
 }
 
 p {
