@@ -1,14 +1,19 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./Header.css";
 
-const NavTab = ({ To, Name }) => {
+const NavTab = ({ name, to }) => {
   return (
-    <Link className="nav-tab-text" to={To}>
-      {Name}
-    </Link>
+    <NavLink
+      className="nav-tab-text"
+      exact
+      activeClassName="selected-tab"
+      to={to}
+    >
+      {name}
+    </NavLink>
   );
 };
 

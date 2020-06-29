@@ -51,6 +51,10 @@
   text-decoration: none;
 }
 
+.selected-tab {
+  font-weight: bold;
+}
+
 @media (max-width: 1118px) {
   #site-title,
   #nav-bar {
