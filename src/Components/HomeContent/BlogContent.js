@@ -13,7 +13,7 @@ const BlogContent = () => {
         author="Emma Neil"
         date="06/24/2020"
       />
-      <BlogEntry text="this is our first blog post" />
+      <BlogEntry>This is our first blog post!</BlogEntry>
     </div>
   );
 };

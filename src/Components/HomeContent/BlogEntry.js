@@ -2,10 +2,10 @@ import React from "react";
 
 import "./HomeContent.css";
 
-const BlogEntry = ({ text }) => {
+const BlogEntry = ({ children }) => {
   return (
     <div className="blog-entry">
-      <p className="blog-text">{text}</p>
+      <p className="blog-text">{children}</p>
     </div>
   );
 };
